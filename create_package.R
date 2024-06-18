@@ -22,8 +22,8 @@ devtools::document(pkg = '.')
 
 #
 
-# Depends: utils, openxlsx, googledrive
-# install.packages(c('utils, 'openxlsx', 'googledrive'), dep = TRUE)
+# Depends: utils, openxlsx, googledrive, Microsoft365R
+# install.packages(c('utils, 'openxlsx', 'googledrive', 'Microsoft365R'), dep = TRUE)
 # update.packages(ask = 'graphics', checkBuilt = TRUE)
 
 #
