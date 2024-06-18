@@ -7,7 +7,7 @@
 #' @param sheet_name Name of the sheet in which the file will be saved. String. Default: 'DATA'.
 #' @param add_sheet To add a sheet in an existing file (instead of create a new file). Boolean. Default: FALSE.
 #' @param where Destination folder. String. Default: current folder (with 'getwd()').
-#' @param freeze_colums Number of columns to be freezed. Default: 1. 
+#' @param freeze_colums Number of columns to be freezed. Default: 1.
 #' @param with_rds To save as 'rds'. Boolean. Default: TRUE.
 #' @param with_rdata To save as 'RData'. Boolean. Default: FALSE.
 #' @param with_csv To save as 'csv' (both standard and Italian-version 'csv' are saved). Boolean. Default: FALSE.
