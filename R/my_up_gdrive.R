@@ -4,8 +4,8 @@
 #'
 #' @param account Account in Google Drive (usually e-mail). Default: ''.
 #' @param current_file Name of the file to upload. String. Default: ''.
-#' @param file_name_uploaded Name of the file after uploading. String. Default: 'NEW'.
-#' @param where_to_upload Folder in Gogle Drive in which the file will be uploaded. String. Default: ''
+#' @param file_name_uploaded Name of the file after uploading (online). String. Default: 'NEW'.
+#' @param where_to_upload Folder in Gogle Drive (online) in which the file will be uploaded. String. Default: ''
 #' @return Nothing.
 #' @export
 my_up_gdrive <- function (account = '', current_file = '', file_name_uploaded = 'NEW', where_to_upload = '')

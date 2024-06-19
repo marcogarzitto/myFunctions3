@@ -3,9 +3,9 @@
 #' Function to download a file from Google Drive, given account and file-ID. Using: 'googledrive' package.
 #'
 #' @param account Account in Google Drive (usually e-mail). Default: ''.
-#' @param id_google ID in Google Drive for the file to download. Default: ''.
+#' @param id_google ID in Google Drive (online) for the file to download. Default: ''.
 #' @param file_name Name of the file after downloading. String. Default: 'IN'.
-#' @param where Origin folder. String. Default: current folder (with 'getwd()').
+#' @param where Destination folder (local). String. Default: current folder (with 'getwd()').
 #' @return Nothing.
 #' @export
 my_down_xlsx_gdrive <- function (account = '', id_google = '', file_name = 'IN', where = getwd())

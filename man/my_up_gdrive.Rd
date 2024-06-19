@@ -16,9 +16,9 @@ my_up_gdrive(
 
 \item{current_file}{Name of the file to upload. String. Default: ''.}
 
-\item{file_name_uploaded}{Name of the file after uploading. String. Default: 'NEW'.}
+\item{file_name_uploaded}{Name of the file after uploading (online). String. Default: 'NEW'.}
 
-\item{where_to_upload}{Folder in Gogle Drive in which the file will be uploaded. String. Default: ''}
+\item{where_to_upload}{Folder in Gogle Drive (online) in which the file will be uploaded. String. Default: ''}
 }
 \value{
 Nothing.

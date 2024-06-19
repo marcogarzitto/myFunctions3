@@ -14,11 +14,11 @@ my_down_xlsx_gdrive(
 \arguments{
 \item{account}{Account in Google Drive (usually e-mail). Default: ''.}
 
-\item{id_google}{ID in Google Drive for the file to download. Default: ''.}
+\item{id_google}{ID in Google Drive (online) for the file to download. Default: ''.}
 
 \item{file_name}{Name of the file after downloading. String. Default: 'IN'.}
 
-\item{where}{Origin folder. String. Default: current folder (with 'getwd()').}
+\item{where}{Destination folder (local). String. Default: current folder (with 'getwd()').}
 }
 \value{
 Nothing.
