@@ -3,6 +3,8 @@
 export(my_down_xlsx_gdrive)
 export(my_down_xlsx_mso365)
 export(my_load_table)
+export(my_nice_number)
+export(my_number_marker)
 export(my_save_table)
 export(my_up_gdrive)
 export(my_up_mso365)
